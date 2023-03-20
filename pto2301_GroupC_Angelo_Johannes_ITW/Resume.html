@@ -68,9 +68,32 @@
               
               <footer>
               <h4 id="Contact Details" >Contact Details</h4>
-              <h4><a href="https://www.instagram.com/angelo_creates/">Instagram</a></h4>
+              <form action="https://formsubmit.co/angelocreates@gmail.com" method="POST">
+              
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            <br>
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" surname="surname" required>
+          <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" age="age" value="0" min="0" max="100" required>
+          <br>
+                <label for="gender">Gender:</label>
+                <select id="gender" required>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+          <br>
+                <label for="mail">Email:</label>
+                <input type="text" id="mail" mail="mail" required>
+          <br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message"></textarea>
+          <br>
+                <input class="submit" type="submit" value="send">
+              </form>
               </footer>
-      
       </div>
 
   </body>
