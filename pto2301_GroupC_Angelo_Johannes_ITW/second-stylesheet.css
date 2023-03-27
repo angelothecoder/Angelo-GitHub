@@ -91,3 +91,57 @@ h4{
 ul li{
     list-style: none;
 }
+
+@media only screen and (max-width:500px) {
+    h1{
+        font-size: large;
+    }
+
+    h2{
+        font-size: large;
+    }
+
+    h3{
+        font-size: large;
+    }
+
+    h4{
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width:250px) {
+    h1{
+        font-size: medium;
+    }
+
+    h2{
+        font-size: medium;
+    }
+
+    h3{
+        font-size: medium;
+    }
+
+    h4{
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width:100px) {
+    h1{
+        font-size: small;
+    }
+
+    h2{
+        font-size: small;
+    }
+
+    h3{
+        font-size: small;
+    }
+
+    h4{
+        font-size: small;
+    }
+}
